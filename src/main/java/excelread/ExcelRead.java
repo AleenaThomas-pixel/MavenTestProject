@@ -47,7 +47,7 @@ public static void main(String args[]) throws IOException {
 	ex.sheet.getRow(r).getLastCellNum();
 	
 	System.out.println("Excel DATA : ");
-	System.out.println("All Employee Details : ");
+	System.out.println("All the Employee Details : ");
 	for (int i=0; i< ex.sheet.getLastRowNum()+1;i++) {
 		for (int j=0; j<= ex.sheet.getRow(i).getLastCellNum()-1;j++) {
 			
